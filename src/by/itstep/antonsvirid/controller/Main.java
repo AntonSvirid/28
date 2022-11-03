@@ -8,7 +8,7 @@ public class Main {
         Student student = new Student();
 
         try {
-            student.setAge(-10);
+            student.setAge(10);
         } catch (Exception exc) {
             System.out.println("Data error");
         }

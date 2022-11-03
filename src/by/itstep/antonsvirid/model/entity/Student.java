@@ -24,7 +24,7 @@ public class Student {
         return age;
     }
 
-    public void setAge(int age) throws Exception{   // void но может вернуть excrption
+    public void setAge(int age) throws Exception {   // void но может вернуть excrption
         if (age > 0) {
             this.age = age;
         } else {
